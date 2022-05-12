@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   
+    height: 6rem;
+    
+}
+.navbar .background{
+}
+
+.navlist {
+    background-color: rgb(31, 28, 28);
+    position: sticky;
+    
+    display: flex;
+    align-items: center;
+
+}
+.navlist a:hover{
+
+    color: aquamarine;
+}
+.navlist li a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+.navlist img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 6rem;
+    border: 2px solid blanchedalmond;
+    margin: 8px;
+}
+
+
+.search {
+    position: relative;
+    top: -80px;
+    text-align: right;
+    left: -1rem;
+}
+.search button{
+    border: 2px solid blanchedalmond;
+    padding: 3px;
+    margin: 1rem;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+.buttons #sb{
+    border: 2px solid blanchedalmond;
+    padding: 6px;
+    margin: 1rem;
+    cursor: pointer;
+    background: none;
+    color: white;
+
+}
+.buttons #bb{
+    border: 2px solid blanchedalmond;
+    padding: 6px;
+    margin: 1rem;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.7) url(bg.png) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100vw;
+
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.mainbox {
+    color: whitesmoke;
+    font-size: bold;
+    font-family: cursive;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.fh {
+    width: 27%;
+    margin: auto 11rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+.mainbox #p1{
+    font-size: 21px;
+    font-weight: bolder;
+}
+.mainbox p{
+    font-size: 17px;
+}
+.sh {
+    text-align: right;
+}
+
+.mainbox .sh img {
+    width: 12rem;
+    height: 12rem;
+    margin: 3rem;
+    position: relative;
+    border-radius: 14rem;
+    border: 4px solid white;
+    left: -14rem;
+}
+.secondsection{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3rem;
+    width: 55rem;
+}
+.thumbnail img{
+    width: 18rem;
+    height: 12rem;
+    position: relative;
+    left: 107px;
+    border: 2px solid black;
+    border-radius: 41px;
+}
+.secondsection1{
+    display: flex;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    width: 150rem;
+    position: relative;
+    flex-direction: row-reverse;
+    left: -88rem;
+    height: 100vh;
+}
+.secondsection1 #quote img{
+    width: 15rem;
+    height: 29rem;
+    position: relative;
+    left: 53rem;
+    border: 2px solid black;
+    border-radius: 41px;
+    top: -6rem;
+}
+.secondsection1 .thumbnail1 img{
+    position: relative;
+    left: 0rem;
+    top: -3rem;
+    width: 14rem;
+    border: 2px solid black;
+    border-radius: 41px;
+    height: 12rem;
+}
+.secondsection2 {
+    display: block;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 32rem;
+    position: relative;
+    left: 58rem;
+    top: -18rem;
+    
+}
+.secondsection2 .thumbnail2 img{
+    width: 18rem;
+    height: 12rem;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 41px;
+    right: -45rem;
+    top: -8rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    position: relative;
+    left: 31rem;
+    
+    
+}
+.contact input{
+    position: relative;
+    left: -6rem;
+    width: 17rem;
+    border: 2px solid black;
+    
+}
+
+.contact textarea{
+    position: relative;
+    left: -6rem;
+    width: 17rem;
+    border: 2px solid black;
+}
+footer:before{
+    background-color: grey;
+}
+section footer{
+    position: relative;
+    top: 7rem;
+    left: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+
+}
+.burger{
+   
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px;
+    left: 95rem;
+    top: 1rem;
+    position: relative;
+}
+@media screen and (max-width:1390px) {
+    .background{
+        width: 100rem;
+    }
+}
+@media screen and (max-width:697px){
+    .navbar {
+        height: 22rem;
+        transition: all 0.9s ease-out ;
+    }
+    .navlist{
+        flex-direction: column;
+        
+    }
+    .search{
+        left: -39rem;
+        top: -1rem;
+       
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav{
+        height: 72px;
+    
+    }
+    .v-nav{
+        opacity: 0;
+    } 
+   
+}
